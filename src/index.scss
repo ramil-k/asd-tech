@@ -1,0 +1,24 @@
+html,
+body,
+#app {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 10px;
+}
+
+#app {
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #6495ed;
+  font-size: 1.6rem;
+}
+
+input:not([type="submit"]):not([type="file"]) {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+}
